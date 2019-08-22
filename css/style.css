@@ -1,0 +1,205 @@
+@font-face {
+	font-family: 'Myriad Pro Regular';
+	src: url('../fonts/MyriadPro-Regular.eot');
+	src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MyriadPro-Regular.woff') format('woff'),
+	url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('../fonts/ProximaNova-Bold.eot');
+	src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/ProximaNova-Bold.woff') format('woff'),
+	url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova Regular';
+	src: url('../fonts/ProximaNova-Regular.eot');
+	src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/ProximaNova-Regular.woff') format('woff'),
+	url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova Semibold';
+	src: url('../fonts/ProximaNova-Semibold.eot');
+	src: url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+	url('../fonts/ProximaNova-Semibold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Helvetica Neue Cyr Thin';
+	src: url('../fonts/HelveticaNeueCyr-Thin.eot');
+	src: url('../fonts/HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/HelveticaNeueCyr-Thin.woff') format('woff'),
+	url('../fonts/HelveticaNeueCyr-Thin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	margin:0px;
+	height: 100%;
+	background: #fafafa;
+}
+html {
+	height: 100%;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+.container {
+	margin: 0 auto;
+	display: flex;
+}
+
+.header {
+	padding-top: 15px;
+	background: #fff;
+	height: 182px;
+	
+}
+.logo {
+	padding-left: 410px;
+}
+.information-block{
+	padding-left: 100px;
+	padding-top: 23px;
+}
+.information-block-top{
+	display:flex;
+}
+.companyname {
+	font-size: 26pt;
+	letter-spacing: -1px;
+	font-family: 'Myriad Pro Regular';
+}
+.header-button{
+	padding-left: 20px;
+	align-self: center;
+	font-family: 'Helvetica Neue Cyr Thin';
+}
+.header-button-start {	
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #4d98de;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 9px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	color: #5499de;
+}
+.informanition-block-mid {	
+	font-size: 14pt;
+	padding-top: 20px;
+	display: flex;
+}
+.block-mid-counter {	
+	font-family: 'Proxima Nova Bold';
+}
+.block-mid-text {
+	font-family: 'Proxima Nova Regular';
+	padding: 0 26px 0 4px;
+}
+.informanition-block-bot {
+	padding-top: 20px;
+	display: flex;
+}
+.section {
+	box-shadow: -1px 34px 30px -20px #efefef inset;
+}
+.section-images {
+	padding: 30px 0 0 314px; 
+	display: flex;
+}
+.image-info {
+	position: relative;
+	top: -165px;
+	padding-left: 20px;
+	color: #ffffff;
+	font-family: 'Proxima Nova Semibold';
+	opacity: 0;
+
+}
+.image-block:hover .image-info {
+	opacity: 1;
+	transition: 0.8s;
+}
+.image-block:not(hover) .image-info {
+	transition: 0.8s;
+}
+.image-block {
+	width: 292px;
+	height: 292px;
+	margin-left: 30px;
+}
+.image-info-day {
+	width: 96px;
+	font-family: 'Proxima Nova Bold';
+}
+.image-info-line {
+	display: flex;
+	padding-top: 22px;
+	width: 250px;
+}
+.hearts-counter {
+	padding-left: 5px;
+	width: 60px;
+}
+.image-info-upload {
+	padding-top: 29px;
+	font-family: 'Myriad Pro Regular';
+	width: 250px;
+	text-align: center;
+}
+.icon-camera {
+	position: relative;
+    top: -250px;
+	left: 225px;
+}
+a {
+	text-decoration: none;
+}
+.button-load {
+	width: 125px;
+	height: 30px;
+	text-decoration:none; 
+	text-align:center; 
+	border-radius: 50px;
+	color:#000000; 
+	border-color: #000000;
+	background:hsla(0, 0%, 98%, 0.534);
+	box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+	text-transform: uppercase;	
+	font-family: 'Proxima Nova Regular';
+	font-size: 10pt;	
+	cursor: pointer;
+	border-width: thin;
+}
+.button-load:hover {
+	background:#00a69c;
+	transition: 1s;
+	color: #ffffff;
+}
+.button-load:not(hover) {
+	transition: 1s;
+}
+.section-button {
+	padding-left: 750px;
+	padding-top: 45px;
+	height: 150px;
+	
+}
