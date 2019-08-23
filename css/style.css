@@ -64,14 +64,13 @@ button:focus {
 .header {
 	padding-top: 15px;
 	background: #fff;
-	height: 182px;
-	
-}
-.logo {
-	padding-left: 410px;
+	height: 182px;	
+	min-width: 1080px;
+	display: flex;
+    justify-content: center;
 }
 .information-block{
-	padding-left: 100px;
+	padding-left: 106px;
 	padding-top: 23px;
 }
 .information-block-top{
@@ -96,15 +95,15 @@ button:focus {
 	color:#666666;
 	font-family:Arial;
 	font-size:15px;
-	font-weight:bold;
+	font-weight:thin;
 	padding:7px 9px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
 	color: #5499de;
 }
 .informanition-block-mid {	
-	font-size: 14pt;
-	padding-top: 20px;
+	font-size: 13pt;
+	padding-top: 12px;
 	display: flex;
 }
 .block-mid-counter {	
@@ -120,10 +119,13 @@ button:focus {
 }
 .section {
 	box-shadow: -1px 34px 30px -20px #efefef inset;
+	min-width: 1080px;
 }
 .section-images {
-	padding: 30px 0 0 314px; 
+	padding: 30px 0px 0 0px; 
 	display: flex;
+	justify-content: center;
+    align-items: center;
 }
 .image-info {
 	position: relative;
@@ -131,7 +133,7 @@ button:focus {
 	padding-left: 20px;
 	color: #ffffff;
 	font-family: 'Proxima Nova Semibold';
-	opacity: 0;
+	opacity: 0;	
 
 }
 .image-block:hover .image-info {
@@ -145,6 +147,7 @@ button:focus {
 	width: 292px;
 	height: 292px;
 	margin-left: 30px;
+	cursor: pointer;
 }
 .image-info-day {
 	width: 96px;
@@ -198,8 +201,31 @@ a {
 	transition: 1s;
 }
 .section-button {
-	padding-left: 750px;
 	padding-top: 45px;
-	height: 150px;
-	
+	justify-content: center;
+    height: 150px;
+    display: flex;
+}
+
+.date {
+	border-radius: 5px;
+	width: 180px;
+	height: 26px;
+	text-indent: 10px;
+	margin-right: 20px;
+	border-color: #cccccc;
+}
+.informanition-block-date {
+	padding-top: 19px;
+	font-size: 14pt;
+}
+.text {
+	padding: 0 7px 0 0;
+	font-family: 'Proxima Nova Regular';
+}
+img {
+	max-width: 100%;
+}
+input {
+	outline:none;
 }
